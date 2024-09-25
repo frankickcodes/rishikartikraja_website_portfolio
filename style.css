@@ -240,9 +240,7 @@ width: 34.8rem;
    background: transparent;
   
     transition: 3s;
-    /* animation: manipActiveHover .1s forwards;
-    animation-delay: 4s;
-    pointer-events: none; */
+    
 }
 .Home_imgHover:hover{
     background: var(--bg-color);
@@ -750,7 +748,8 @@ section:nth-child(odd) .animate.scroll,
     }
     .Home_imgHover{
         pointer-events: none;
-        background: var(--bg-color);
+        background: var(--bg-color);     
+        height: 100%;
         opacity: 7.6;
     }
 }
